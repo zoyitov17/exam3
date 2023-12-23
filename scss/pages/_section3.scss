@@ -1,0 +1,70 @@
+.bg-img-mem{
+    width: 100%;
+    height: 550px;
+    margin-top: 150px;
+    background-image: url(../../images/section3-bg-img-mem.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    .bg-img-mem-send{
+        display: flex;
+        align-items: center;
+        width: 80%;
+        height: 110px;
+        border-radius: 30px;
+        background: #FFF;
+        margin-bottom: 20px;
+        :nth-child(1){
+            padding: 26px 45px;
+            color: var(--, #1C1C1C);
+            font-family: "Roboto", sans-serif;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            text-transform: uppercase;
+            .title{
+                color: #1C1C1C;
+                font-family: "Roboto", sans-serif;
+                font-size: 24px;
+                font-style: italic;
+                font-weight: 400;
+                line-height: normal;
+                text-transform: uppercase;
+            }
+        }
+        :nth-child(2){
+            color: #1C1C1C;
+            font-family: "Roboto", sans-serif;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+            padding: 0px 30px;
+        }
+        .send{
+            width: 165px;
+            height: 40px;
+            border-radius: 30px;
+            background:#EC1C24;
+            transition-duration: 0.4s;
+            text-transform: uppercase;
+            cursor: pointer;
+            margin: 5px 0px 0px 255px;
+        }
+        .btn{
+            background-color: #EC1C24;
+            color: white;
+            border: 2px solid #EC1C24;
+        }
+        .btn:hover{
+            background-color: white;
+            color: #EC1C24;
+        }
+    }
+  
+
+    
+}

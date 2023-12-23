@@ -1,0 +1,328 @@
+.tours{
+    .tours__texts{
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 130px;
+        .tours__texts_titleh3{
+            color: #1C1C1C;
+            font-family: 'Roboto', sans-serif;
+            font-size: 38px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            text-transform: uppercase;
+        }
+        .tours__texts_titlep{
+            color: #1C1C1C;
+            font-family: 'Roboto', sans-serif;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+            text-transform: uppercase;
+        }
+    }
+    .tours_cards{
+        display: flex;
+        .tours_cards_title{
+            margin:60px 0px 0px 185px;
+            width: 230px;
+            height: 280px;
+            border-radius: 30px;
+            background-image: url(../../images/tour-card-img.png);
+            background-size: 100% 100%;
+            .tours_cards_title-title{
+                display: flex;
+            }
+            .tour_day{
+                width: 60px;
+                height: 20px;
+                border-radius: 30px;
+                border: 1px solid #FFF;
+                color: #FFF;
+                font-family: 'Roboto', sans-serif;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 300;
+                line-height: normal;
+                padding-left: 7px;
+                margin: 20px 0px 0px 20px;
+            }
+            .tour_price{
+                width: 95px;
+                height: 20px;
+                margin: 20px 0px 0px 10px;
+                border-radius: 30px;
+                border: 1px solid #FFF;
+                color: #FFF;
+                font-family: 'Roboto', sans-serif;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 300;
+                padding: 0px 10px;
+                line-height: normal;
+            }
+            .tours_cards_where{
+                :nth-child(1){
+                    color:  #FFF;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    text-transform: uppercase;
+                    margin: 170px 0px 0px 20px;
+                }
+                :nth-child(2){
+                    color:  #FFF;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 300;
+                    line-height: normal;
+                    margin: 5px 0px 0px 20px;
+                }
+            }
+        }
+        .tours_cards_title2{
+            margin:60px 0px 0px 15px;
+            width: 220px;
+            height: 280px;
+            border-radius: 30px;
+            background-image: url(../../images/tour-card-img2.png);
+            background-size: 100% 100%;
+            .tours_cards_title-title2{
+                display: flex;
+            }
+            .tour_day2{
+                width: 60px;
+                height: 20px;
+                border-radius: 30px;
+                border: 1px solid #FFF;
+                color: #FFF;
+                font-family: 'Roboto', sans-serif;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 300;
+                line-height: normal;
+                padding-left: 7px;
+                margin: 20px 0px 0px 20px;
+            }
+            .tour_price2{
+                width: 95px;
+                height: 20px;
+                margin: 20px 0px 0px 10px;
+                border-radius: 30px;
+                border: 1px solid #FFF;
+                color: #FFF;
+                font-family: 'Roboto', sans-serif;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 300;
+                padding: 0px 10px;
+                line-height: normal;
+            }
+            .tours_cards_where2{
+                :nth-child(1){
+                    color:  #FFF;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    text-transform: uppercase;
+                    margin: 170px 0px 0px 20px;
+                }
+                :nth-child(2){
+                    color:  #FFF;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 300;
+                    line-height: normal;
+                    margin: 5px 0px 0px 20px;
+                }
+            }
+        }
+        .tours_cards_title3{
+            margin:60px 0px 0px 15px;
+            width: 230px;
+            height: 280px;
+            border-radius: 30px;
+            background-image: url(../../images/tour-card-img3.png);
+            background-size: 100% 100%;
+            .tours_cards_title-title{
+                display: flex;
+            }
+            .tour_day{
+                width: 60px;
+                height: 20px;
+                border-radius: 30px;
+                border: 1px solid #FFF;
+                color: #FFF;
+                font-family: 'Roboto', sans-serif;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 300;
+                line-height: normal;
+                padding-left: 7px;
+                margin: 20px 0px 0px 20px;
+            }
+            .tour_price{
+                width: 95px;
+                height: 20px;
+                margin: 20px 0px 0px 10px;
+                border-radius: 30px;
+                border: 1px solid #FFF;
+                color: #FFF;
+                font-family: 'Roboto', sans-serif;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 300;
+                padding: 0px 10px;
+                line-height: normal;
+            }
+            .tours_cards_where{
+                :nth-child(1){
+                    color:  #FFF;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    text-transform: uppercase;
+                    margin: 170px 0px 0px 20px;
+                }
+                :nth-child(2){
+                    color:  #FFF;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 300;
+                    line-height: normal;
+                    margin: 5px 0px 0px 20px;
+                }
+            }
+        }
+        .tours_cards_title4{
+            margin:60px 0px 0px 15px;
+            width: 230px;
+            height: 280px;
+            border-radius: 30px;
+            background-image: url(../../images/tour-card-img4.png);
+            background-size: 100% 100%;
+            .tours_cards_title-title{
+                display: flex;
+            }
+            .tour_day{
+                width: 60px;
+                height: 20px;
+                border-radius: 30px;
+                border: 1px solid #FFF;
+                color: #FFF;
+                font-family: 'Roboto', sans-serif;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 300;
+                line-height: normal;
+                padding-left: 7px;
+                margin: 20px 0px 0px 20px;
+            }
+            .tour_price{
+                width: 95px;
+                height: 20px;
+                margin: 20px 0px 0px 10px;
+                border-radius: 30px;
+                border: 1px solid #FFF;
+                color: #FFF;
+                font-family: 'Roboto', sans-serif;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 300;
+                padding: 0px 10px;
+                line-height: normal;
+            }
+            .tours_cards_where{
+                :nth-child(1){
+                    color:  #FFF;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    text-transform: uppercase;
+                    margin: 170px 0px 0px 20px;
+                }
+                :nth-child(2){
+                    color:  #FFF;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 300;
+                    line-height: normal;
+                    margin: 5px 0px 0px 20px;
+                }
+            }
+        }
+        .tours_cards_title5{
+            margin:60px 0px 0px 15px;
+            width: 230px;
+            height: 280px;
+            border-radius: 30px;
+            background-image: url(../../images/tour-card-img5.png);
+            background-size: 100% 100%;
+            .tours_cards_title-title{
+                display: flex;
+            }
+            .tour_day{
+                width: 60px;
+                height: 20px;
+                border-radius: 30px;
+                border: 1px solid #FFF;
+                color: #FFF;
+                font-family: 'Roboto', sans-serif;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 300;
+                line-height: normal;
+                padding-left: 7px;
+                margin: 20px 0px 0px 20px;
+            }
+            .tour_price{
+                width: 95px;
+                height: 20px;
+                margin: 20px 0px 0px 10px;
+                border-radius: 30px;
+                border: 1px solid #FFF;
+                color: #FFF;
+                font-family: 'Roboto', sans-serif;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 300;
+                padding: 0px 10px;
+                line-height: normal;
+            }
+            .tours_cards_where{
+                :nth-child(1){
+                    color:  #FFF;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    text-transform: uppercase;
+                    margin: 170px 0px 0px 20px;
+                }
+                :nth-child(2){
+                    color:  #FFF;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 300;
+                    line-height: normal;
+                    margin: 5px 0px 0px 20px;
+                }
+            }
+        }
+    }
+}
